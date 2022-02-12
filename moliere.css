@@ -4,17 +4,34 @@
     color:black;
 
 }
-.direction a.hover{
+.direction{
     font: bold;
     size: 0cm;
     background-color: bisque;
     color: black;
 
 }
+.direction:hover{
+    background-color: yellow;
+    color: aquamarine;
+}
 .name{
     font:600;
     size: 0em;
     color:black;
-
+}
+#MonsieurJourdain{
+    color: blueviolet;
 
 }
+#DancingMaster{
+    color: blanchedalmond;
+}
+#OnsieurJourdain{
+    color: brown;
+
+}
+#MusicMaster{
+    color: rgb(188, 143, 178);
+}
+
