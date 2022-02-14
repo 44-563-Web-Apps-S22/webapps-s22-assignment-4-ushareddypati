@@ -20,6 +20,12 @@
     size: 0em;
     color:black;
 }
+.name:hover{
+    color:rgb(221, 101, 181);
+    text-shadow: 10px orangered;
+    border:solid greenyellow;
+    
+}
 .MonsieurJourdain{
     color: blueviolet;
 
