@@ -37,18 +37,20 @@
 .table,
 th
 {
-    color: beige;
-    border: 1px slategray;
+    color:red;
+    border: solid slategray;
+    border-collapse: collapse;
     text-align: center;
-    margin: 10px;
+    margin: 500px ;
     padding: 5px;
+    background-color:azure;
 }
 td{
     color:blueviolet;
-    border: 1px black;
+    border: 200px black;
     text-align: center;
-    margin: 10px;
+    margin: 50px;
     padding: 5px;
+    background-color: bisque;
 }
 
-}
