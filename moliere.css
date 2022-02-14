@@ -20,18 +20,18 @@
     size: 0em;
     color:black;
 }
-#MonsieurJourdain{
+.MonsieurJourdain{
     color: blueviolet;
 
 }
-#DancingMaster{
+.DancingMaster{
     color: blanchedalmond;
 }
-#OnsieurJourdain{
+.OnsieurJourdain{
     color: brown;
 
 }
-#MusicMaster{
+.MusicMaster{
     color: rgb(188, 143, 178);
 }
 
