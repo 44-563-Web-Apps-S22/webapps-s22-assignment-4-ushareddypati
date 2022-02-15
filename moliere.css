@@ -27,18 +27,18 @@
     
 }
 .MonsieurJourdain{
-    color: blueviolet;
+    color: rgb(128, 33, 218);
 
 }
 .DancingMaster{
-    color: blanchedalmond;
+    color: rgb(207, 24, 137);
 }
 .OnsieurJourdain{
-    color: brown;
+    color: rgb(247, 21, 21);
 
 }
 .MusicMaster{
-    color: rgb(188, 143, 178);
+    color: rgb(16, 206, 63);
 }
 .table,
 th
@@ -59,4 +59,22 @@ td{
     padding: 5px;
     background-color: bisque;
 }
-
+ul.navbar-horizontal {
+    list-style-type:none;
+    margin: 20px;
+}
+ul.navbar-horizontal li {
+    float: centre; 
+    background-color:rgb(220, 245, 255);
+}
+ul.navbar-horizontal a {
+    text-align: center;
+    color: red;
+    display:block;
+    padding:15px;
+    margin: 15px;
+}
+ul.navbar-horizontal a:hover {  
+    background-color:gold;
+    color:white;
+}
