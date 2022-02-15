@@ -1,11 +1,13 @@
 .speech{
     font:600;
-    size: 0em;
+    size: 3px;
+    font-family: 'Times New Roman', Times, serif;
     color:black;
 
 }
 .direction{
     font: bold;
+    font-family: 'Times New Roman', Times, serif;
     size: 0cm;
     background-color: bisque;
     color: black;
@@ -17,14 +19,16 @@
 }
 .name{
     font:600;
-    size: 0em;
+    size: 3px;
     color:black;
 }
 .name:hover{
     color:rgb(221, 101, 181);
     text-shadow: 10px orangered;
-    border:solid greenyellow;
-    
+    text-shadow:6px 5px 3px rgb(32, 161, 75);
+    color: transparent;
+
+        
 }
 .MonsieurJourdain{
     color: rgb(128, 33, 218);
@@ -77,4 +81,28 @@ ul.navbar-horizontal a {
 ul.navbar-horizontal a:hover {  
     background-color:gold;
     color:white;
+}
+.navigation{
+    width: 100%;
+    overflow: auto;
+}
+
+.navigation a {
+    float:left;
+    padding: 15px;
+    color:rgb(98, 13, 235);
+    background-color: rgb(172, 138, 162);
+    align-content: center;
+    left: 15%;
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navigation:hover {
+    background-color: cyan;
+}
+.item {
+    color:rgb(221, 16, 16);
+    background-color:gainsboro;
 }
